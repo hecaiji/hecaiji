@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="200" height="50">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0052D4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4364F7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Icon mark -->
+  <rect x="2" y="8" width="34" height="34" rx="8" fill="url(#logoGrad)"/>
+  <path d="M10 25 L18 17 L26 25 L18 33 Z" fill="white" opacity="0.9"/>
+  <circle cx="26" cy="17" r="4" fill="white" opacity="0.7"/>
+  <!-- Text -->
+  <text x="44" y="22" font-family="'Arial', sans-serif" font-weight="700" font-size="14" fill="#0052D4" letter-spacing="0.5">HECAIJI</text>
+  <text x="44" y="38" font-family="'Arial', sans-serif" font-weight="400" font-size="10" fill="#666" letter-spacing="1.5">TECHNOLOGY</text>
+</svg>

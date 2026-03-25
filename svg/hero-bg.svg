@@ -1,0 +1,54 @@
+<!-- hero-bg.svg: Abstract tech background -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 800" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#001a6e"/>
+      <stop offset="50%" style="stop-color:#0052D4"/>
+      <stop offset="100%" style="stop-color:#4364F7"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="30%" cy="40%" r="50%">
+      <stop offset="0%" style="stop-color:#6fb1ff;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#6fb1ff;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="80%" cy="60%" r="40%">
+      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1440" height="800" fill="url(#bgGrad)"/>
+  <rect width="1440" height="800" fill="url(#glow1)"/>
+  <rect width="1440" height="800" fill="url(#glow2)"/>
+  <!-- Grid lines -->
+  <g stroke="rgba(255,255,255,0.05)" stroke-width="1">
+    <line x1="0" y1="100" x2="1440" y2="100"/>
+    <line x1="0" y1="200" x2="1440" y2="200"/>
+    <line x1="0" y1="300" x2="1440" y2="300"/>
+    <line x1="0" y1="400" x2="1440" y2="400"/>
+    <line x1="0" y1="500" x2="1440" y2="500"/>
+    <line x1="0" y1="600" x2="1440" y2="600"/>
+    <line x1="0" y1="700" x2="1440" y2="700"/>
+    <line x1="120" y1="0" x2="120" y2="800"/>
+    <line x1="240" y1="0" x2="240" y2="800"/>
+    <line x1="360" y1="0" x2="360" y2="800"/>
+    <line x1="480" y1="0" x2="480" y2="800"/>
+    <line x1="600" y1="0" x2="600" y2="800"/>
+    <line x1="720" y1="0" x2="720" y2="800"/>
+    <line x1="840" y1="0" x2="840" y2="800"/>
+    <line x1="960" y1="0" x2="960" y2="800"/>
+    <line x1="1080" y1="0" x2="1080" y2="800"/>
+    <line x1="1200" y1="0" x2="1200" y2="800"/>
+    <line x1="1320" y1="0" x2="1320" y2="800"/>
+  </g>
+  <!-- Decorative circles -->
+  <circle cx="200" cy="150" r="120" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <circle cx="200" cy="150" r="60" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <circle cx="1200" cy="600" r="200" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <circle cx="1200" cy="600" r="100" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <!-- Floating dots -->
+  <circle cx="400" cy="200" r="3" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="700" cy="350" r="2" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="1000" cy="150" r="4" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="1100" cy="450" r="2" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="600" cy="600" r="3" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="300" cy="500" r="2" fill="rgba(255,255,255,0.2)"/>
+</svg>
